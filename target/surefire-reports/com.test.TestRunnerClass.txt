@@ -1,0 +1,121 @@
+-------------------------------------------------------------------------------
+Test set: com.test.TestRunnerClass
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.877 s <<< FAILURE! -- in com.test.TestRunnerClass
+Student Login.Login using DataTable -- Time elapsed: 0.140 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User enters login credentials' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User enters login credentials")
+public void user_enters_login_credentials(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Facebook Login.Login using multiple users -- Time elapsed: 0.010 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User enters login credentials' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User enters login credentials")
+public void user_enters_login_credentials(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Validate the facebook login Page.Validation of facebook login Page Using Invalid Username and Invalid Password -- Time elapsed: 0.011 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User Enters the facebook url through Chrome browser' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User Enters the facebook url through Chrome browser")
+public void user_enters_the_facebook_url_through_chrome_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Enters the invalid username and invalid password")
+public void user_enters_the_invalid_username_and_invalid_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Clicks on the Login Button")
+public void user_clicks_on_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User Validates the error Message")
+public void user_validates_the_error_message() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Validate the facebook login Page.Validation of facebook login Page Using valid Username and invalid Password -- Time elapsed: 0.007 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User Enters the facebook url through Chrome browser' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User Enters the facebook url through Chrome browser")
+public void user_enters_the_facebook_url_through_chrome_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Enters the valid username and invalid password")
+public void user_enters_the_valid_username_and_invalid_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Clicks on the Login Button")
+public void user_clicks_on_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User Validates the error Message")
+public void user_validates_the_error_message() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Validate the facebook login Page.Validation of facebook login Page Using Invalid Username and valid Password -- Time elapsed: 0.010 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User Enters the facebook url through Chrome browser' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User Enters the facebook url through Chrome browser")
+public void user_enters_the_facebook_url_through_chrome_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Enters the invalid username and valid password")
+public void user_enters_the_invalid_username_and_valid_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Clicks on the Login Button")
+public void user_clicks_on_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User Validates the error Message")
+public void user_validates_the_error_message() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
