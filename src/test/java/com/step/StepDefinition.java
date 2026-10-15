@@ -16,7 +16,7 @@ public class StepDefinition {
 		
 		  driver=new ChromeDriver();
 			
-			driver.manage().window().maximize();
+			driver.manage().window().minimize();
 			
 			driver.get("https://www.facebook.com/");
 	    
